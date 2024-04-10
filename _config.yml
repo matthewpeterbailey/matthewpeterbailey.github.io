@@ -2,6 +2,8 @@ remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
 logo: assets/Matthew Bailey - Specsavers - Software Engineering Lead.jpg
-title: Matthew Bailey
+show_downloads: false 
+description: Matthew Bailey (he/him) - Software Engineering Lead
 github:
   is_project_page: false
+  is_user_page: true
