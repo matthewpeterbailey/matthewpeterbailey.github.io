@@ -1,0 +1,11 @@
+document.documentElement.classList.remove('no-js');
+const journey=document.querySelector('.journey'),scene=document.querySelector('.scene'),runner=document.querySelector('.runner'),portrait=document.querySelector('.portrait'),copy=document.querySelector('.hero-copy');
+const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+const clamp=n=>Math.max(0,Math.min(1,n));
+let queued=false;
+// Points follow the nearest paper ridge in the source illustration (1536 × 1024).
+const ridge=[[0,.73],[.10,.78],[.15,.757],[.22,.79],[.29,.838],[.35,.85],[.42,.84],[.48,.861],[.54,.89],[.61,.88],[.67,.909],[.75,.905],[.82,.907],[.89,.89],[1,.938]];
+function ridgeY(x){for(let i=1;i<ridge.length;i++){if(x<=ridge[i][0]){const a=ridge[i-1],b=ridge[i];return a[1]+(b[1]-a[1])*(x-a[0])/(b[0]-a[0])}}return ridge.at(-1)[1]}
+function render(){queued=false;if(reduced.matches){runner.style.opacity='0';portrait.style.setProperty('--portrait-opacity','1');copy.style.opacity='1';copy.style.transform='none';return}const rect=journey.getBoundingClientRect(),s=scene.getBoundingClientRect(),p=portrait.getBoundingClientRect();const travel=journey.offsetHeight-scene.offsetHeight;const progress=clamp(-rect.top/travel);const scale=Math.max(s.width/1536,s.height/1024),iw=1536*scale,ih=1024*scale;const ox=(s.width-iw)/2,oy=(s.height-ih)/2;const x=s.width*(.1+.72*progress);const imageX=clamp((x-ox)/iw);let y=s.top+oy+ridgeY(imageX)*ih;let rx=x;const exit=clamp((-rect.top-travel)/(s.height*.64));if(exit>0){const startX=s.width*.82;const startY=s.top+oy+ridgeY(clamp((startX-ox)/iw))*ih;const ease=exit*exit*(3-2*exit);rx=startX+(p.left+p.width/2-startX)*ease;y=startY+(p.top+p.height*.63-startY)*ease}const fade=clamp((exit-.76)/.24);runner.style.left=rx+'px';runner.style.top=(y-Math.abs(Math.sin((-rect.top)*.035))*3)+'px';runner.style.opacity=String(rect.top>50?0:1-fade);runner.style.rotate=(Math.sin(-rect.top*.025)*3)+'deg';portrait.style.setProperty('--portrait-opacity',String(fade));copy.style.opacity=String(1-clamp(progress*1.8));copy.style.transform=`translateY(${-progress*65}px)`}
+function schedule(){if(!queued){queued=true;requestAnimationFrame(render)}}
+addEventListener('scroll',schedule,{passive:true});addEventListener('resize',schedule);reduced.addEventListener('change',schedule);runner.addEventListener('load',schedule);render();
