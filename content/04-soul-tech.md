@@ -10,7 +10,10 @@ At this year’s Ai4 2025 conference in Las Vegas, a US based AI company called 
 
 It sounds like science fiction and, depending on your perspective, either a touching way to hold onto memories or something straight from a cautionary episode of Black Mirror.
 
-"Be Right Back" is the first episode of the second series of Black Mirror, a bleak and emotional story exploring grief and the uncanny valley through artificial intelligence. After a young woman loses her boyfriend in a car accident, she uses a service that allows her to create an AI version of him, built from his digital footprint.
+<figure>
+  <img src="../../assets/be-right-back.png" width="744" height="420" loading="lazy" decoding="async" alt="A scene from Be Right Back: a man and woman sitting apart on a sofa.">
+  <figcaption>"Be Right Back" is the first episode of the second series of <em>Black Mirror</em>, a bleak and emotional story exploring grief and the uncanny valley through artificial intelligence. After a young woman loses her boyfriend in a car accident, she uses a service that allows her to create an AI version of him, built from his digital footprint.</figcaption>
+</figure>
 
 On launch, Reflekta shared their guiding promise:
 
