@@ -1,6 +1,6 @@
 # Matthew Peter Bailey — portfolio
 
-A static portfolio and Markdown blog with an atmospheric paper mountain scene, a scroll-linked runner, and a portrait reveal. No client framework, external fonts, database, or server runtime is needed in production.
+A static portfolio and Markdown blog with an atmospheric paper mountain scene, a scroll-linked runner, and a running gait. No client framework, external fonts, database, or server runtime is needed in production.
 
 ## Local development
 
@@ -16,7 +16,7 @@ Open http://127.0.0.1:4321. Re-run the build after changing content; reload the 
 
 ## Edit your introduction
 
-Edit `content/site.json`. The headline and introduction are provisional copy. The headline accepts trusted HTML for the italic second line. Add your portrait to `dist/assets/portrait.webp`, then set `portrait` to `./assets/portrait.webp`. Until supplied, an explicitly labelled monogram placeholder fades in instead. Edit the full biography in `content/about.md`.
+Edit `content/site.json`. The headline and introduction are provisional copy. The headline accepts trusted HTML for the italic second line. Add your portrait to `dist/assets/portrait.webp`, then set `portrait` to `./assets/portrait.webp`. Until supplied, an explicitly labelled monogram placeholder appears instead. Edit the full biography in `content/about.md`.
 
 ## Publish a post
 
@@ -50,6 +50,7 @@ The `.openai/hosting.json` manifest also supports a separate private Sites deplo
 
 - Authored shared styles, animation, favicon, and optimized assets live in `dist`; keep these files tracked.
 - HTML is generated from `content` by `scripts/build.mjs`.
-- Reduced-motion preference disables the pinned sequence and displays the portrait immediately.
+- Reduced-motion preference disables the pinned sequence and hides the decorative runner.
 - Navigation and articles work without JavaScript.
 - Artwork was generated with the built-in image generator. Landscape prompt: atmospheric layered green paper mountains, clear offwhite sky, mist and tactile paper grain, no text or people. Runner prompt: full-body black runner silhouette facing right, separated limbs, crisp paper-cut style, transparent background. Assets: `dist/assets/mountains.webp`, `dist/assets/runner.webp`.
+
