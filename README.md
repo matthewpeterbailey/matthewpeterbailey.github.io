@@ -42,7 +42,7 @@ Only numbered Markdown files are posts. Dates sort newest first. Slugs must be u
 2. In repository Settings → Pages, select **GitHub Actions** as the source.
 3. The included workflow builds and publishes after each push to `main`.
 
-For `matthewpeterbailey.github.io`, use that exact repository name. A repository named `portfolio` produces `https://matthewpeterbailey.github.io/portfolio/`. Relative links support either location. An optional custom domain is the only expected ongoing cost for this setup; GitHub Pages is free for public repositories. No GitHub repository has been created or modified by this build.
+For `matthewpeterbailey.github.io`, use that exact repository name. A repository named `portfolio` produces `https://matthewpeterbailey.github.io/portfolio/`. Relative links support either location. An optional custom domain is the only expected ongoing cost for this setup; GitHub Pages is free for public repositories. Production repository: https://github.com/matthewpeterbailey/matthewpeterbailey.github.io. Live site: https://matthewpeterbailey.github.io/. This workspace tracks the production repository as `origin`. The separately created `portfolio` remote retains the initial source snapshot; its duplicate deployment workflow is disabled.
 
 The `.openai/hosting.json` manifest also supports a separate private Sites deployment for review. It does not connect or publish to GitHub Pages.
 
@@ -53,4 +53,5 @@ The `.openai/hosting.json` manifest also supports a separate private Sites deplo
 - Reduced-motion preference disables the pinned sequence and hides the decorative runner.
 - Navigation and articles work without JavaScript.
 - Artwork was generated with the built-in image generator. Landscape prompt: atmospheric layered green paper mountains, clear offwhite sky, mist and tactile paper grain, no text or people. Runner prompt: full-body black runner silhouette facing right, separated limbs, crisp paper-cut style, transparent background. Assets: `dist/assets/mountains.webp`, `dist/assets/runner.webp`.
+
 
