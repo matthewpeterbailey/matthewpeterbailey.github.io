@@ -2,9 +2,9 @@
   "name": "Matthew Peter Bailey",
   "headline": "Notes on software engineering.",
   "heroIntro": "Exploring software design, technical leadership and building systems that improve people’s lives.",
-  "introHeading": "Always something to explore.",
-  "intro": "I'm Matthew, a full stack engineer. This is where I share what I'm investigating, what I'm building, and what I learn along the way.",
-  "portrait": "./assets/portrait.webp",
+  "introHeading": "Engineering with a focus on outcomes.",
+  "intro": "I'm a Principal Software Engineer working with TypeScript and .NET, with a background in applied mathematics and more than six years leading engineering teams. My interests centre on building reliable software and making data useful, particularly where they can support better health outcomes.",
+  "portrait": "./assets/portrait.jpg",
   "github": "https://github.com/matthewpeterbailey",
   "linkedin": "https://www.linkedin.com/in/matthewpeterbailey/"
 }
