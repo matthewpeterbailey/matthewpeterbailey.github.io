@@ -2,8 +2,10 @@
   "name": "Matthew Peter Bailey",
   "headline": "Notes on software engineering.",
   "heroIntro": "Exploring software design, technical leadership and building systems that improve people’s lives.",
-  "introHeading": "Engineering with a focus on outcomes.",
-  "intro": "I'm a Principal Software Engineer working with TypeScript and .NET, with a background in applied mathematics and more than six years leading engineering teams. My interests centre on building reliable software and making data useful, particularly where they can support better health outcomes.",
+  "introHeading": "I build software that",
+  "introEmphasis": "improves people’s lives.",
+  "intro": "Principal Software Engineer specialising in TypeScript and .NET. I write about software engineering, technical leadership and building reliable systems that turn complex data into better outcomes.",
+  "introAside": "And sometimes running.",
   "portrait": "./assets/portrait.jpg",
   "github": "https://github.com/matthewpeterbailey",
   "linkedin": "https://www.linkedin.com/in/matthewpeterbailey/"
