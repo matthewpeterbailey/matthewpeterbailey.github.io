@@ -2,7 +2,7 @@
 title: Kobuk the destroyer: Should we all be thinking like test engineers?
 date: 2026-09-21
 tag: Engineering practice
-summary:
+summary: Reflections on testing assumptions, system boundaries and what happens after software fails.
 slug: kobuk-the-destroyer
 sample: false
 ---
