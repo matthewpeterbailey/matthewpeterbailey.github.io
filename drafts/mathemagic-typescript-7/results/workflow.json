@@ -1,0 +1,386 @@
+[
+  {
+    "version": "5.9.3",
+    "iteration": 0,
+    "warmup": true,
+    "stages": {
+      "build": {
+        "wall_seconds": 2.5892671999899903,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.5642871000018204,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 6.019316199992318,
+        "exit_code": 0,
+        "log": "PASS tests/geometry/linesAndVertices/linesIntersect.spec.ts\nPASS tests/core/constants.spec.ts\nPASS tests/sequences/fibonacci.spec.ts\nPASS tests/stats/mode.spec.ts\nPASS tests/matrices/multiplyMatrices.spec.ts\nPASS tests/matrices/matrixPower.spec.ts\nPASS tests/stats/median.spec.ts\nPASS tests/stats/mean.spec.ts\nPASS tests/core/dot.spec.ts\nPASS tests/core/cross.spec.ts\nPASS tests/geometry/linesAndVertices/perpendicular.spec.ts\nPASS tests/geometry/linesAndVertices/squaredDistance.spec.ts\nPASS tests/core/sum.spec.ts\nPASS tests/core/max.spec.ts\nPASS tests/core/min.spec.ts\nPASS tests/geometry/linesAndVertices/distance.spec.ts\nPASS tests/geometry/linesAndVertices/normalize.spec.ts\nPASS tests/stats/variance.spec.ts\nPASS tests/stats/standardDeviation.spec.ts\nPASS tests/geometry/circle/perimeterFromRadius.spec.ts\nPASS tests/geometry/circle/areaFromRadius.spec.ts\nPASS tests/geometry/square/areaOfSquare.spec.ts\n\nTest Suites: 22 passed, 22 total\nTests:       44 passed, 44 total\nSnapshots:   0 total\nTime:        5.179 s\nRan all test suites.\nTest results written to: ..\\..\\..\\node_modules\\.mathemagic-benchmark\\jest-results.json\n"
+      }
+    },
+    "total_seconds": 10.172870499984128,
+    "tests": {
+      "numTotalTestSuites": 22,
+      "numPassedTestSuites": 22,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 44,
+      "numPassedTests": 44,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "6.0.3",
+    "iteration": 0,
+    "warmup": true,
+    "stages": {
+      "build": {
+        "wall_seconds": 2.5847292999969795,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.5897854999930132,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 5.998522200010484,
+        "exit_code": 0,
+        "log": "PASS tests/geometry/linesAndVertices/linesIntersect.spec.ts\nPASS tests/core/constants.spec.ts\nPASS tests/sequences/fibonacci.spec.ts\nPASS tests/stats/mode.spec.ts\nPASS tests/matrices/multiplyMatrices.spec.ts\nPASS tests/matrices/matrixPower.spec.ts\nPASS tests/stats/median.spec.ts\nPASS tests/stats/mean.spec.ts\nPASS tests/core/dot.spec.ts\nPASS tests/core/cross.spec.ts\nPASS tests/geometry/linesAndVertices/perpendicular.spec.ts\nPASS tests/geometry/linesAndVertices/squaredDistance.spec.ts\nPASS tests/core/sum.spec.ts\nPASS tests/core/max.spec.ts\nPASS tests/core/min.spec.ts\nPASS tests/geometry/linesAndVertices/distance.spec.ts\nPASS tests/geometry/linesAndVertices/normalize.spec.ts\nPASS tests/stats/variance.spec.ts\nPASS tests/stats/standardDeviation.spec.ts\nPASS tests/geometry/circle/perimeterFromRadius.spec.ts\nPASS tests/geometry/circle/areaFromRadius.spec.ts\nPASS tests/geometry/square/areaOfSquare.spec.ts\n\nTest Suites: 22 passed, 22 total\nTests:       44 passed, 44 total\nSnapshots:   0 total\nTime:        5.142 s\nRan all test suites.\nTest results written to: ..\\..\\..\\node_modules\\.mathemagic-benchmark\\jest-results.json\n"
+      }
+    },
+    "total_seconds": 10.173037000000477,
+    "tests": {
+      "numTotalTestSuites": 22,
+      "numPassedTestSuites": 22,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 44,
+      "numPassedTests": 44,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "7.0.2",
+    "iteration": 0,
+    "warmup": true,
+    "stages": {
+      "build": {
+        "wall_seconds": 0.6287451000098372,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.6268000999989454,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 6.123772699997062,
+        "exit_code": 0,
+        "log": "PASS tests/geometry/linesAndVertices/linesIntersect.spec.ts\nPASS tests/core/constants.spec.ts\nPASS tests/sequences/fibonacci.spec.ts\nPASS tests/stats/mode.spec.ts\nPASS tests/matrices/multiplyMatrices.spec.ts\nPASS tests/matrices/matrixPower.spec.ts\nPASS tests/stats/median.spec.ts\nPASS tests/stats/mean.spec.ts\nPASS tests/core/dot.spec.ts\nPASS tests/core/cross.spec.ts\nPASS tests/geometry/linesAndVertices/perpendicular.spec.ts\nPASS tests/geometry/linesAndVertices/squaredDistance.spec.ts\nPASS tests/core/sum.spec.ts\nPASS tests/core/min.spec.ts\nPASS tests/core/max.spec.ts\nPASS tests/geometry/linesAndVertices/distance.spec.ts\nPASS tests/geometry/linesAndVertices/normalize.spec.ts\nPASS tests/stats/variance.spec.ts\nPASS tests/stats/standardDeviation.spec.ts\nPASS tests/geometry/circle/perimeterFromRadius.spec.ts\nPASS tests/geometry/circle/areaFromRadius.spec.ts\nPASS tests/geometry/square/areaOfSquare.spec.ts\n\nTest Suites: 22 passed, 22 total\nTests:       44 passed, 44 total\nSnapshots:   0 total\nTime:        5.126 s\nRan all test suites.\nTest results written to: ..\\..\\..\\node_modules\\.mathemagic-benchmark\\jest-results.json\n"
+      }
+    },
+    "total_seconds": 8.379317900005844,
+    "tests": {
+      "numTotalTestSuites": 22,
+      "numPassedTestSuites": 22,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 44,
+      "numPassedTests": 44,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "7.0.2",
+    "iteration": 1,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 0.5993925999937346,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.5736743999877945,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 5.915979800003697,
+        "exit_code": 0,
+        "log": "PASS tests/geometry/linesAndVertices/linesIntersect.spec.ts\nPASS tests/core/constants.spec.ts\nPASS tests/sequences/fibonacci.spec.ts\nPASS tests/stats/mode.spec.ts\nPASS tests/matrices/multiplyMatrices.spec.ts\nPASS tests/matrices/matrixPower.spec.ts\nPASS tests/stats/median.spec.ts\nPASS tests/stats/mean.spec.ts\nPASS tests/core/dot.spec.ts\nPASS tests/core/cross.spec.ts\nPASS tests/geometry/linesAndVertices/perpendicular.spec.ts\nPASS tests/geometry/linesAndVertices/squaredDistance.spec.ts\nPASS tests/core/sum.spec.ts\nPASS tests/core/min.spec.ts\nPASS tests/core/max.spec.ts\nPASS tests/geometry/linesAndVertices/distance.spec.ts\nPASS tests/geometry/linesAndVertices/normalize.spec.ts\nPASS tests/stats/variance.spec.ts\nPASS tests/stats/standardDeviation.spec.ts\nPASS tests/geometry/circle/perimeterFromRadius.spec.ts\nPASS tests/geometry/circle/areaFromRadius.spec.ts\nPASS tests/geometry/square/areaOfSquare.spec.ts\n\nTest Suites: 22 passed, 22 total\nTests:       44 passed, 44 total\nSnapshots:   0 total\nTime:        5.047 s\nRan all test suites.\nTest results written to: ..\\..\\..\\node_modules\\.mathemagic-benchmark\\jest-results.json\n"
+      }
+    },
+    "total_seconds": 8.089046799985226,
+    "tests": {
+      "numTotalTestSuites": 22,
+      "numPassedTestSuites": 22,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 44,
+      "numPassedTests": 44,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "6.0.3",
+    "iteration": 1,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 2.5386226999980863,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.6298032000049716,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 5.953726299994742,
+        "exit_code": 0,
+        "log": "PASS tests/geometry/linesAndVertices/linesIntersect.spec.ts\nPASS tests/core/constants.spec.ts\nPASS tests/sequences/fibonacci.spec.ts\nPASS tests/stats/mode.spec.ts\nPASS tests/matrices/multiplyMatrices.spec.ts\nPASS tests/matrices/matrixPower.spec.ts\nPASS tests/stats/median.spec.ts\nPASS tests/stats/mean.spec.ts\nPASS tests/core/dot.spec.ts\nPASS tests/core/cross.spec.ts\nPASS tests/geometry/linesAndVertices/perpendicular.spec.ts\nPASS tests/geometry/linesAndVertices/squaredDistance.spec.ts\nPASS tests/core/sum.spec.ts\nPASS tests/core/min.spec.ts\nPASS tests/core/max.spec.ts\nPASS tests/geometry/linesAndVertices/distance.spec.ts\nPASS tests/geometry/linesAndVertices/normalize.spec.ts\nPASS tests/stats/variance.spec.ts\nPASS tests/stats/standardDeviation.spec.ts\nPASS tests/geometry/circle/perimeterFromRadius.spec.ts\nPASS tests/geometry/circle/areaFromRadius.spec.ts\nPASS tests/geometry/square/areaOfSquare.spec.ts\n\nTest Suites: 22 passed, 22 total\nTests:       44 passed, 44 total\nSnapshots:   0 total\nTime:        5.121 s\nRan all test suites.\nTest results written to: ..\\..\\..\\node_modules\\.mathemagic-benchmark\\jest-results.json\n"
+      }
+    },
+    "total_seconds": 10.1221521999978,
+    "tests": {
+      "numTotalTestSuites": 22,
+      "numPassedTestSuites": 22,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 44,
+      "numPassedTests": 44,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "5.9.3",
+    "iteration": 1,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 2.505823600004078,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.6250930999958655,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 5.891332400002284,
+        "exit_code": 0,
+        "log": "PASS tests/geometry/linesAndVertices/linesIntersect.spec.ts\nPASS tests/core/constants.spec.ts\nPASS tests/sequences/fibonacci.spec.ts\nPASS tests/stats/mode.spec.ts\nPASS tests/matrices/multiplyMatrices.spec.ts\nPASS tests/matrices/matrixPower.spec.ts\nPASS tests/stats/median.spec.ts\nPASS tests/stats/mean.spec.ts\nPASS tests/core/dot.spec.ts\nPASS tests/core/cross.spec.ts\nPASS tests/geometry/linesAndVertices/perpendicular.spec.ts\nPASS tests/geometry/linesAndVertices/squaredDistance.spec.ts\nPASS tests/core/sum.spec.ts\nPASS tests/core/min.spec.ts\nPASS tests/core/max.spec.ts\nPASS tests/geometry/linesAndVertices/distance.spec.ts\nPASS tests/geometry/linesAndVertices/normalize.spec.ts\nPASS tests/stats/variance.spec.ts\nPASS tests/stats/standardDeviation.spec.ts\nPASS tests/geometry/circle/perimeterFromRadius.spec.ts\nPASS tests/geometry/circle/areaFromRadius.spec.ts\nPASS tests/geometry/square/areaOfSquare.spec.ts\n\nTest Suites: 22 passed, 22 total\nTests:       44 passed, 44 total\nSnapshots:   0 total\nTime:        5.063 s\nRan all test suites.\nTest results written to: ..\\..\\..\\node_modules\\.mathemagic-benchmark\\jest-results.json\n"
+      }
+    },
+    "total_seconds": 10.022249100002227,
+    "tests": {
+      "numTotalTestSuites": 22,
+      "numPassedTestSuites": 22,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 44,
+      "numPassedTests": 44,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "5.9.3",
+    "iteration": 2,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 2.78334840000025,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.7036632999952417,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 5.894433199995547,
+        "exit_code": 0,
+        "log": "PASS tests/geometry/linesAndVertices/linesIntersect.spec.ts\nPASS tests/core/constants.spec.ts\nPASS tests/sequences/fibonacci.spec.ts\nPASS tests/stats/mode.spec.ts\nPASS tests/matrices/multiplyMatrices.spec.ts\nPASS tests/matrices/matrixPower.spec.ts\nPASS tests/stats/median.spec.ts\nPASS tests/stats/mean.spec.ts\nPASS tests/core/dot.spec.ts\nPASS tests/core/cross.spec.ts\nPASS tests/geometry/linesAndVertices/perpendicular.spec.ts\nPASS tests/geometry/linesAndVertices/squaredDistance.spec.ts\nPASS tests/core/sum.spec.ts\nPASS tests/core/min.spec.ts\nPASS tests/core/max.spec.ts\nPASS tests/geometry/linesAndVertices/distance.spec.ts\nPASS tests/geometry/linesAndVertices/normalize.spec.ts\nPASS tests/stats/variance.spec.ts\nPASS tests/stats/standardDeviation.spec.ts\nPASS tests/geometry/circle/perimeterFromRadius.spec.ts\nPASS tests/geometry/circle/areaFromRadius.spec.ts\nPASS tests/geometry/square/areaOfSquare.spec.ts\n\nTest Suites: 22 passed, 22 total\nTests:       44 passed, 44 total\nSnapshots:   0 total\nTime:        5.071 s\nRan all test suites.\nTest results written to: ..\\..\\..\\node_modules\\.mathemagic-benchmark\\jest-results.json\n"
+      }
+    },
+    "total_seconds": 10.381444899991038,
+    "tests": {
+      "numTotalTestSuites": 22,
+      "numPassedTestSuites": 22,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 44,
+      "numPassedTests": 44,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "6.0.3",
+    "iteration": 2,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 2.581909100001212,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.5855205000116257,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 5.87752759999421,
+        "exit_code": 0,
+        "log": "PASS tests/geometry/linesAndVertices/linesIntersect.spec.ts\nPASS tests/core/constants.spec.ts\nPASS tests/sequences/fibonacci.spec.ts\nPASS tests/stats/mode.spec.ts\nPASS tests/matrices/multiplyMatrices.spec.ts\nPASS tests/matrices/matrixPower.spec.ts\nPASS tests/stats/median.spec.ts\nPASS tests/stats/mean.spec.ts\nPASS tests/core/dot.spec.ts\nPASS tests/core/cross.spec.ts\nPASS tests/geometry/linesAndVertices/perpendicular.spec.ts\nPASS tests/geometry/linesAndVertices/squaredDistance.spec.ts\nPASS tests/core/sum.spec.ts\nPASS tests/core/min.spec.ts\nPASS tests/core/max.spec.ts\nPASS tests/geometry/linesAndVertices/distance.spec.ts\nPASS tests/geometry/linesAndVertices/normalize.spec.ts\nPASS tests/stats/variance.spec.ts\nPASS tests/stats/standardDeviation.spec.ts\nPASS tests/geometry/circle/perimeterFromRadius.spec.ts\nPASS tests/geometry/circle/areaFromRadius.spec.ts\nPASS tests/geometry/square/areaOfSquare.spec.ts\n\nTest Suites: 22 passed, 22 total\nTests:       44 passed, 44 total\nSnapshots:   0 total\nTime:        5.056 s\nRan all test suites.\nTest results written to: ..\\..\\..\\node_modules\\.mathemagic-benchmark\\jest-results.json\n"
+      }
+    },
+    "total_seconds": 10.044957200007048,
+    "tests": {
+      "numTotalTestSuites": 22,
+      "numPassedTestSuites": 22,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 44,
+      "numPassedTests": 44,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "7.0.2",
+    "iteration": 2,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 0.6134591000009095,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.6158730000024661,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 5.96664209998562,
+        "exit_code": 0,
+        "log": "PASS tests/geometry/linesAndVertices/linesIntersect.spec.ts\nPASS tests/core/constants.spec.ts\nPASS tests/sequences/fibonacci.spec.ts\nPASS tests/stats/mode.spec.ts\nPASS tests/matrices/multiplyMatrices.spec.ts\nPASS tests/matrices/matrixPower.spec.ts\nPASS tests/stats/median.spec.ts\nPASS tests/stats/mean.spec.ts\nPASS tests/core/dot.spec.ts\nPASS tests/core/cross.spec.ts\nPASS tests/geometry/linesAndVertices/perpendicular.spec.ts\nPASS tests/geometry/linesAndVertices/squaredDistance.spec.ts\nPASS tests/core/sum.spec.ts\nPASS tests/core/max.spec.ts\nPASS tests/core/min.spec.ts\nPASS tests/geometry/linesAndVertices/distance.spec.ts\nPASS tests/geometry/linesAndVertices/normalize.spec.ts\nPASS tests/stats/variance.spec.ts\nPASS tests/stats/standardDeviation.spec.ts\nPASS tests/geometry/circle/perimeterFromRadius.spec.ts\nPASS tests/geometry/circle/areaFromRadius.spec.ts\nPASS tests/geometry/square/areaOfSquare.spec.ts\n\nTest Suites: 22 passed, 22 total\nTests:       44 passed, 44 total\nSnapshots:   0 total\nTime:        5.111 s\nRan all test suites.\nTest results written to: ..\\..\\..\\node_modules\\.mathemagic-benchmark\\jest-results.json\n"
+      }
+    },
+    "total_seconds": 8.195974199988996,
+    "tests": {
+      "numTotalTestSuites": 22,
+      "numPassedTestSuites": 22,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 44,
+      "numPassedTests": 44,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "7.0.2",
+    "iteration": 3,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 0.6016051000042353,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.5941147999983514,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 6.376971400008188,
+        "exit_code": 0,
+        "log": "PASS tests/geometry/linesAndVertices/linesIntersect.spec.ts\nPASS tests/core/constants.spec.ts\nPASS tests/sequences/fibonacci.spec.ts\nPASS tests/stats/mode.spec.ts\nPASS tests/matrices/multiplyMatrices.spec.ts\nPASS tests/matrices/matrixPower.spec.ts\nPASS tests/stats/median.spec.ts\nPASS tests/stats/mean.spec.ts\nPASS tests/core/dot.spec.ts\nPASS tests/core/cross.spec.ts\nPASS tests/geometry/linesAndVertices/perpendicular.spec.ts\nPASS tests/geometry/linesAndVertices/squaredDistance.spec.ts\nPASS tests/core/sum.spec.ts\nPASS tests/core/min.spec.ts\nPASS tests/core/max.spec.ts\nPASS tests/geometry/linesAndVertices/distance.spec.ts\nPASS tests/geometry/linesAndVertices/normalize.spec.ts\nPASS tests/stats/variance.spec.ts\nPASS tests/stats/standardDeviation.spec.ts\nPASS tests/geometry/circle/perimeterFromRadius.spec.ts\nPASS tests/geometry/circle/areaFromRadius.spec.ts\nPASS tests/geometry/square/areaOfSquare.spec.ts\n\nTest Suites: 22 passed, 22 total\nTests:       44 passed, 44 total\nSnapshots:   0 total\nTime:        5.508 s\nRan all test suites.\nTest results written to: ..\\..\\..\\node_modules\\.mathemagic-benchmark\\jest-results.json\n"
+      }
+    },
+    "total_seconds": 8.572691300010774,
+    "tests": {
+      "numTotalTestSuites": 22,
+      "numPassedTestSuites": 22,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 44,
+      "numPassedTests": 44,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "6.0.3",
+    "iteration": 3,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 2.594857999996748,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.5841378000041004,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 5.92803609999828,
+        "exit_code": 0,
+        "log": "PASS tests/geometry/linesAndVertices/linesIntersect.spec.ts\nPASS tests/core/constants.spec.ts\nPASS tests/sequences/fibonacci.spec.ts\nPASS tests/stats/mode.spec.ts\nPASS tests/matrices/multiplyMatrices.spec.ts\nPASS tests/matrices/matrixPower.spec.ts\nPASS tests/stats/median.spec.ts\nPASS tests/stats/mean.spec.ts\nPASS tests/core/dot.spec.ts\nPASS tests/core/cross.spec.ts\nPASS tests/geometry/linesAndVertices/perpendicular.spec.ts\nPASS tests/geometry/linesAndVertices/squaredDistance.spec.ts\nPASS tests/core/sum.spec.ts\nPASS tests/core/min.spec.ts\nPASS tests/core/max.spec.ts\nPASS tests/geometry/linesAndVertices/distance.spec.ts\nPASS tests/geometry/linesAndVertices/normalize.spec.ts\nPASS tests/stats/variance.spec.ts\nPASS tests/stats/standardDeviation.spec.ts\nPASS tests/geometry/circle/perimeterFromRadius.spec.ts\nPASS tests/geometry/circle/areaFromRadius.spec.ts\nPASS tests/geometry/square/areaOfSquare.spec.ts\n\nTest Suites: 22 passed, 22 total\nTests:       44 passed, 44 total\nSnapshots:   0 total\nTime:        5.079 s\nRan all test suites.\nTest results written to: ..\\..\\..\\node_modules\\.mathemagic-benchmark\\jest-results.json\n"
+      }
+    },
+    "total_seconds": 10.107031899999129,
+    "tests": {
+      "numTotalTestSuites": 22,
+      "numPassedTestSuites": 22,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 44,
+      "numPassedTests": 44,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "5.9.3",
+    "iteration": 3,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 2.475468299991917,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.576413799994043,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 5.939040400000522,
+        "exit_code": 0,
+        "log": "PASS tests/geometry/linesAndVertices/linesIntersect.spec.ts\nPASS tests/core/constants.spec.ts\nPASS tests/sequences/fibonacci.spec.ts\nPASS tests/stats/mode.spec.ts\nPASS tests/matrices/multiplyMatrices.spec.ts\nPASS tests/matrices/matrixPower.spec.ts\nPASS tests/stats/median.spec.ts\nPASS tests/stats/mean.spec.ts\nPASS tests/core/dot.spec.ts\nPASS tests/core/cross.spec.ts\nPASS tests/geometry/linesAndVertices/perpendicular.spec.ts\nPASS tests/geometry/linesAndVertices/squaredDistance.spec.ts\nPASS tests/core/sum.spec.ts\nPASS tests/core/min.spec.ts\nPASS tests/core/max.spec.ts\nPASS tests/geometry/linesAndVertices/distance.spec.ts\nPASS tests/geometry/linesAndVertices/normalize.spec.ts\nPASS tests/stats/variance.spec.ts\nPASS tests/stats/standardDeviation.spec.ts\nPASS tests/geometry/circle/perimeterFromRadius.spec.ts\nPASS tests/geometry/circle/areaFromRadius.spec.ts\nPASS tests/geometry/square/areaOfSquare.spec.ts\n\nTest Suites: 22 passed, 22 total\nTests:       44 passed, 44 total\nSnapshots:   0 total\nTime:        5.137 s\nRan all test suites.\nTest results written to: ..\\..\\..\\node_modules\\.mathemagic-benchmark\\jest-results.json\n"
+      }
+    },
+    "total_seconds": 9.990922499986482,
+    "tests": {
+      "numTotalTestSuites": 22,
+      "numPassedTestSuites": 22,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 44,
+      "numPassedTests": 44,
+      "numFailedTests": 0,
+      "success": true
+    }
+  }
+]

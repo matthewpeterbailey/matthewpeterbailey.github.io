@@ -1,0 +1,200 @@
+[
+  {
+    "wall_seconds": 4.8363593999965815,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 495747072,
+    "samples": 338,
+    "sampled_cpu_seconds_lower_bound": 9.171875,
+    "config": "original",
+    "version": "5.9.3",
+    "iteration": 0
+  },
+  {
+    "wall_seconds": 2.645825800005696,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 387403776,
+    "samples": 182,
+    "sampled_cpu_seconds_lower_bound": 5.875,
+    "config": "aligned",
+    "version": "5.9.3",
+    "iteration": 0
+  },
+  {
+    "wall_seconds": 2.7449715999973705,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 397520896,
+    "samples": 186,
+    "sampled_cpu_seconds_lower_bound": 5.875,
+    "config": "aligned",
+    "version": "6.0.3",
+    "iteration": 0
+  },
+  {
+    "wall_seconds": 0.6192853999964427,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 233746432,
+    "samples": 41,
+    "sampled_cpu_seconds_lower_bound": 1.609375,
+    "config": "aligned",
+    "version": "7.0.2",
+    "iteration": 0
+  },
+  {
+    "wall_seconds": 1.1093520000140416,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 196202496,
+    "samples": 77,
+    "sampled_cpu_seconds_lower_bound": 2.21875,
+    "config": "lean",
+    "version": "5.9.3",
+    "iteration": 0
+  },
+  {
+    "wall_seconds": 0.40531190000183415,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 133181440,
+    "samples": 28,
+    "sampled_cpu_seconds_lower_bound": 0.578125,
+    "config": "lean",
+    "version": "7.0.2",
+    "iteration": 0
+  },
+  {
+    "wall_seconds": 0.4260952000040561,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 131821568,
+    "samples": 30,
+    "sampled_cpu_seconds_lower_bound": 0.921875,
+    "config": "lean",
+    "version": "7.0.2",
+    "iteration": 1
+  },
+  {
+    "wall_seconds": 1.1294753999973182,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 222560256,
+    "samples": 79,
+    "sampled_cpu_seconds_lower_bound": 2.203125,
+    "config": "lean",
+    "version": "5.9.3",
+    "iteration": 1
+  },
+  {
+    "wall_seconds": 0.6243440000107512,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 237817856,
+    "samples": 43,
+    "sampled_cpu_seconds_lower_bound": 1.328125,
+    "config": "aligned",
+    "version": "7.0.2",
+    "iteration": 1
+  },
+  {
+    "wall_seconds": 2.6483076000004075,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 391831552,
+    "samples": 183,
+    "sampled_cpu_seconds_lower_bound": 5.296875,
+    "config": "aligned",
+    "version": "6.0.3",
+    "iteration": 1
+  },
+  {
+    "wall_seconds": 2.612881400011247,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 394252288,
+    "samples": 182,
+    "sampled_cpu_seconds_lower_bound": 5.84375,
+    "config": "aligned",
+    "version": "5.9.3",
+    "iteration": 1
+  },
+  {
+    "wall_seconds": 4.707651799995801,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 540168192,
+    "samples": 334,
+    "sampled_cpu_seconds_lower_bound": 9.421875,
+    "config": "original",
+    "version": "5.9.3",
+    "iteration": 1
+  },
+  {
+    "wall_seconds": 4.767230700002983,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 549421056,
+    "samples": 335,
+    "sampled_cpu_seconds_lower_bound": 9.109375,
+    "config": "original",
+    "version": "5.9.3",
+    "iteration": 2
+  },
+  {
+    "wall_seconds": 2.5796992000105092,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 388534272,
+    "samples": 179,
+    "sampled_cpu_seconds_lower_bound": 5.78125,
+    "config": "aligned",
+    "version": "5.9.3",
+    "iteration": 2
+  },
+  {
+    "wall_seconds": 2.6543628000072204,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 392593408,
+    "samples": 186,
+    "sampled_cpu_seconds_lower_bound": 5.78125,
+    "config": "aligned",
+    "version": "6.0.3",
+    "iteration": 2
+  },
+  {
+    "wall_seconds": 0.6105457999947248,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 234749952,
+    "samples": 42,
+    "sampled_cpu_seconds_lower_bound": 1.46875,
+    "config": "aligned",
+    "version": "7.0.2",
+    "iteration": 2
+  },
+  {
+    "wall_seconds": 1.1239732000103686,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 190525440,
+    "samples": 78,
+    "sampled_cpu_seconds_lower_bound": 1.96875,
+    "config": "lean",
+    "version": "5.9.3",
+    "iteration": 2
+  },
+  {
+    "wall_seconds": 0.4284501999936765,
+    "exit_code": 0,
+    "log": "",
+    "sampled_peak_tree_rss_bytes": 136691712,
+    "samples": 30,
+    "sampled_cpu_seconds_lower_bound": 0.8125,
+    "config": "lean",
+    "version": "7.0.2",
+    "iteration": 2
+  }
+]

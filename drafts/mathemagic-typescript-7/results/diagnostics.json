@@ -1,0 +1,32 @@
+{
+  "original-5.9.3": {
+    "wall_seconds": 4.6895010999869555,
+    "exit_code": 0,
+    "log": "Files:                         229\nLines of Library:            50334\nLines of Definitions:        68910\nLines of TypeScript:           544\nLines of JavaScript:             0\nLines of JSON:                   0\nLines of Other:                  0\nIdentifiers:                120190\nSymbols:                    177925\nTypes:                      133675\nInstantiations:             162785\nMemory used:               330673K\nAssignability cache size:   238889\nIdentity cache size:          1003\nSubtype cache size:              3\nStrict subtype cache size:     522\nI/O Read time:               0.07s\nParse time:                  0.35s\nResolveModule time:          0.09s\nResolveTypeReference time:   0.01s\nResolveLibrary time:         0.02s\nProgram time:                0.60s\nBind time:                   0.19s\nCheck time:                  3.51s\ntransformTime time:          0.05s\ncommentTime time:            0.01s\nI/O Write time:              0.04s\nprintTime time:              0.14s\nEmit time:                   0.14s\nTotal time:                  4.43s\n"
+  },
+  "aligned-5.9.3": {
+    "wall_seconds": 2.6185602999903494,
+    "exit_code": 0,
+    "log": "Files:                         207\nLines of Library:            49964\nLines of Definitions:        59317\nLines of TypeScript:           544\nLines of JavaScript:             0\nLines of JSON:                   0\nLines of Other:                  0\nIdentifiers:                 90568\nSymbols:                    132611\nTypes:                       61924\nInstantiations:              86351\nMemory used:               206116K\nAssignability cache size:    27220\nIdentity cache size:          1003\nSubtype cache size:              3\nStrict subtype cache size:       4\nI/O Read time:               0.06s\nParse time:                  0.30s\nResolveModule time:          0.09s\nResolveTypeReference time:   0.01s\nResolveLibrary time:         0.02s\nProgram time:                0.53s\nBind time:                   0.12s\nCheck time:                  1.55s\ntransformTime time:          0.05s\ncommentTime time:            0.01s\nI/O Write time:              0.06s\nprintTime time:              0.15s\nEmit time:                   0.15s\nTotal time:                  2.35s\n"
+  },
+  "aligned-6.0.3": {
+    "wall_seconds": 3.012015500004054,
+    "exit_code": 0,
+    "log": "Files:                         207\nLines of Library:            55571\nLines of Definitions:        59317\nLines of TypeScript:           544\nLines of JavaScript:             0\nLines of JSON:                   0\nLines of Other:                  0\nIdentifiers:                 94300\nSymbols:                    137117\nTypes:                       64947\nInstantiations:              91440\nMemory used:               216160K\nAssignability cache size:    27934\nIdentity cache size:           999\nSubtype cache size:              3\nStrict subtype cache size:       4\nI/O Read time:               0.41s\nParse time:                  0.30s\nResolveModule time:          0.08s\nResolveTypeReference time:   0.00s\nProgram time:                0.85s\nBind time:                   0.14s\nCheck time:                  1.64s\ntransformTime time:          0.05s\ncommentTime time:            0.01s\nI/O Write time:              0.04s\nprintTime time:              0.11s\nEmit time:                   0.11s\nTotal time:                  2.74s\n"
+  },
+  "aligned-7.0.2": {
+    "wall_seconds": 0.6640668000036385,
+    "exit_code": 0,
+    "log": "Files:              207\nLines:           115445\nIdentifiers:      94270\nSymbols:         151155\nTypes:            81115\nInstantiations:  108575\nMemory used:    140940K\nMemory allocs:   816791\nConfig time:     0.002s\nParse time:      0.062s\nBind time:       0.015s\nCheck time:      0.388s\nEmit time:       0.019s\nTotal time:      0.488s\n"
+  },
+  "lean-5.9.3": {
+    "wall_seconds": 1.1108037999947555,
+    "exit_code": 0,
+    "log": "Files:                         39\nLines of Library:           46629\nLines of Definitions:           0\nLines of TypeScript:          544\nLines of JavaScript:            0\nLines of JSON:                  0\nLines of Other:                 0\nIdentifiers:                42478\nSymbols:                    32394\nTypes:                      15114\nInstantiations:              3367\nMemory used:               82816K\nAssignability cache size:    4083\nIdentity cache size:            0\nSubtype cache size:             2\nStrict subtype cache size:      4\nI/O Read time:              0.01s\nParse time:                 0.15s\nResolveModule time:         0.01s\nResolveLibrary time:        0.01s\nProgram time:               0.20s\nBind time:                  0.09s\nCheck time:                 0.50s\ntransformTime time:         0.05s\ncommentTime time:           0.02s\nI/O Write time:             0.04s\nprintTime time:             0.14s\nEmit time:                  0.14s\nTotal time:                 0.92s\n"
+  },
+  "lean-7.0.2": {
+    "wall_seconds": 0.4478918000095291,
+    "exit_code": 0,
+    "log": "Files:              40\nLines:           52909\nIdentifiers:     46296\nSymbols:         52399\nTypes:           29844\nInstantiations:  27345\nMemory used:    58767K\nMemory allocs:  276253\nConfig time:    0.002s\nParse time:     0.035s\nBind time:      0.012s\nCheck time:     0.231s\nEmit time:      0.017s\nTotal time:     0.299s\n"
+  }
+}

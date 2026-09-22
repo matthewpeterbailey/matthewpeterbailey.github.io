@@ -1,0 +1,21 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "node": "v24.19.0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "logical_cpus": 12,
+  "source_commit": "dc7833fb59bae13a729cab61eea1ddc6b956d1ff",
+  "source_files": 25,
+  "source_lines": 519,
+  "test_files": 22,
+  "lock_sha256": "0036f9927194249356a2d944b2568890761b35e074fd56bb7bb940c2c8295931",
+  "versions": {
+    "5.9.3": "Version 5.9.3",
+    "6.0.3": "Version 6.0.3",
+    "7.0.2": "Version 7.0.2"
+  },
+  "cpu": "AMD Ryzen 5 4600H",
+  "os_visible_ram_bytes": 7966732288,
+  "npm_install_version": "11.16.0",
+  "benchmark_date": "2026-09-21",
+  "resource_monitor": "psutil 7.2.2"
+}

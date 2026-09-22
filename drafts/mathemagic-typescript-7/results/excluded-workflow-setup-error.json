@@ -1,0 +1,386 @@
+[
+  {
+    "version": "5.9.3",
+    "iteration": 0,
+    "warmup": true,
+    "stages": {
+      "build": {
+        "wall_seconds": 2.49259430001257,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 17.32627560000401,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 8.324837399995886,
+        "exit_code": 1,
+        "log": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nNo files found in C:\\Users\\Mpb19\\Documents\\Repositories\\portfolio\\node_modules\\.mathemagic-benchmark\\source.\nMake sure Jest's configuration does not exclude this directory.\nTo set up Jest, make sure a package.json file exists.\nJest Documentation: https://jestjs.io/docs/configuration\nPattern:  - 0 matches\n"
+      }
+    },
+    "total_seconds": 28.143707300012466,
+    "tests": {
+      "numTotalTestSuites": 0,
+      "numPassedTestSuites": 0,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 0,
+      "numPassedTests": 0,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "6.0.3",
+    "iteration": 0,
+    "warmup": true,
+    "stages": {
+      "build": {
+        "wall_seconds": 3.0038328999944497,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.7042461000091862,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 0.6655794000107562,
+        "exit_code": 1,
+        "log": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nNo files found in C:\\Users\\Mpb19\\Documents\\Repositories\\portfolio\\node_modules\\.mathemagic-benchmark\\source.\nMake sure Jest's configuration does not exclude this directory.\nTo set up Jest, make sure a package.json file exists.\nJest Documentation: https://jestjs.io/docs/configuration\nPattern:  - 0 matches\n"
+      }
+    },
+    "total_seconds": 5.373658400014392,
+    "tests": {
+      "numTotalTestSuites": 0,
+      "numPassedTestSuites": 0,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 0,
+      "numPassedTests": 0,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "7.0.2",
+    "iteration": 0,
+    "warmup": true,
+    "stages": {
+      "build": {
+        "wall_seconds": 0.5993570999999065,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.5968021000007866,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 0.6658590999868466,
+        "exit_code": 1,
+        "log": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nNo files found in C:\\Users\\Mpb19\\Documents\\Repositories\\portfolio\\node_modules\\.mathemagic-benchmark\\source.\nMake sure Jest's configuration does not exclude this directory.\nTo set up Jest, make sure a package.json file exists.\nJest Documentation: https://jestjs.io/docs/configuration\nPattern:  - 0 matches\n"
+      }
+    },
+    "total_seconds": 2.8620182999875396,
+    "tests": {
+      "numTotalTestSuites": 0,
+      "numPassedTestSuites": 0,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 0,
+      "numPassedTests": 0,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "7.0.2",
+    "iteration": 1,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 0.5800486999942223,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.6210732000035932,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 0.6488660999893909,
+        "exit_code": 1,
+        "log": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nNo files found in C:\\Users\\Mpb19\\Documents\\Repositories\\portfolio\\node_modules\\.mathemagic-benchmark\\source.\nMake sure Jest's configuration does not exclude this directory.\nTo set up Jest, make sure a package.json file exists.\nJest Documentation: https://jestjs.io/docs/configuration\nPattern:  - 0 matches\n"
+      }
+    },
+    "total_seconds": 2.8499879999872064,
+    "tests": {
+      "numTotalTestSuites": 0,
+      "numPassedTestSuites": 0,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 0,
+      "numPassedTests": 0,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "6.0.3",
+    "iteration": 1,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 2.5536864000023343,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.6077183000015793,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 0.6501473999960581,
+        "exit_code": 1,
+        "log": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nNo files found in C:\\Users\\Mpb19\\Documents\\Repositories\\portfolio\\node_modules\\.mathemagic-benchmark\\source.\nMake sure Jest's configuration does not exclude this directory.\nTo set up Jest, make sure a package.json file exists.\nJest Documentation: https://jestjs.io/docs/configuration\nPattern:  - 0 matches\n"
+      }
+    },
+    "total_seconds": 4.811552099999972,
+    "tests": {
+      "numTotalTestSuites": 0,
+      "numPassedTestSuites": 0,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 0,
+      "numPassedTests": 0,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "5.9.3",
+    "iteration": 1,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 2.46801620000042,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.6601745999942068,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 0.7419283999915933,
+        "exit_code": 1,
+        "log": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nNo files found in C:\\Users\\Mpb19\\Documents\\Repositories\\portfolio\\node_modules\\.mathemagic-benchmark\\source.\nMake sure Jest's configuration does not exclude this directory.\nTo set up Jest, make sure a package.json file exists.\nJest Documentation: https://jestjs.io/docs/configuration\nPattern:  - 0 matches\n"
+      }
+    },
+    "total_seconds": 4.87011919998622,
+    "tests": {
+      "numTotalTestSuites": 0,
+      "numPassedTestSuites": 0,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 0,
+      "numPassedTests": 0,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "5.9.3",
+    "iteration": 2,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 2.574259900007746,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.5629615999932867,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 0.677105799986748,
+        "exit_code": 1,
+        "log": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nNo files found in C:\\Users\\Mpb19\\Documents\\Repositories\\portfolio\\node_modules\\.mathemagic-benchmark\\source.\nMake sure Jest's configuration does not exclude this directory.\nTo set up Jest, make sure a package.json file exists.\nJest Documentation: https://jestjs.io/docs/configuration\nPattern:  - 0 matches\n"
+      }
+    },
+    "total_seconds": 4.814327299987781,
+    "tests": {
+      "numTotalTestSuites": 0,
+      "numPassedTestSuites": 0,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 0,
+      "numPassedTests": 0,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "6.0.3",
+    "iteration": 2,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 2.4900912000011886,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.5767527999996673,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 0.6563088999973843,
+        "exit_code": 1,
+        "log": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nNo files found in C:\\Users\\Mpb19\\Documents\\Repositories\\portfolio\\node_modules\\.mathemagic-benchmark\\source.\nMake sure Jest's configuration does not exclude this directory.\nTo set up Jest, make sure a package.json file exists.\nJest Documentation: https://jestjs.io/docs/configuration\nPattern:  - 0 matches\n"
+      }
+    },
+    "total_seconds": 4.72315289999824,
+    "tests": {
+      "numTotalTestSuites": 0,
+      "numPassedTestSuites": 0,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 0,
+      "numPassedTests": 0,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "7.0.2",
+    "iteration": 2,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 0.6079522000072757,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.5860700999910478,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 0.6378257000033045,
+        "exit_code": 1,
+        "log": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nNo files found in C:\\Users\\Mpb19\\Documents\\Repositories\\portfolio\\node_modules\\.mathemagic-benchmark\\source.\nMake sure Jest's configuration does not exclude this directory.\nTo set up Jest, make sure a package.json file exists.\nJest Documentation: https://jestjs.io/docs/configuration\nPattern:  - 0 matches\n"
+      }
+    },
+    "total_seconds": 2.831848000001628,
+    "tests": {
+      "numTotalTestSuites": 0,
+      "numPassedTestSuites": 0,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 0,
+      "numPassedTests": 0,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "7.0.2",
+    "iteration": 3,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 0.5938397999998415,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.5962622999941232,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 0.6569236999930581,
+        "exit_code": 1,
+        "log": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nNo files found in C:\\Users\\Mpb19\\Documents\\Repositories\\portfolio\\node_modules\\.mathemagic-benchmark\\source.\nMake sure Jest's configuration does not exclude this directory.\nTo set up Jest, make sure a package.json file exists.\nJest Documentation: https://jestjs.io/docs/configuration\nPattern:  - 0 matches\n"
+      }
+    },
+    "total_seconds": 2.8470257999870228,
+    "tests": {
+      "numTotalTestSuites": 0,
+      "numPassedTestSuites": 0,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 0,
+      "numPassedTests": 0,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "6.0.3",
+    "iteration": 3,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 2.5232667999953264,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.59745760000078,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 0.7109221999999136,
+        "exit_code": 1,
+        "log": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nNo files found in C:\\Users\\Mpb19\\Documents\\Repositories\\portfolio\\node_modules\\.mathemagic-benchmark\\source.\nMake sure Jest's configuration does not exclude this directory.\nTo set up Jest, make sure a package.json file exists.\nJest Documentation: https://jestjs.io/docs/configuration\nPattern:  - 0 matches\n"
+      }
+    },
+    "total_seconds": 4.83164659999602,
+    "tests": {
+      "numTotalTestSuites": 0,
+      "numPassedTestSuites": 0,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 0,
+      "numPassedTests": 0,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  {
+    "version": "5.9.3",
+    "iteration": 3,
+    "warmup": false,
+    "stages": {
+      "build": {
+        "wall_seconds": 2.7748300999955973,
+        "exit_code": 0,
+        "log": ""
+      },
+      "lint": {
+        "wall_seconds": 1.6859316999907605,
+        "exit_code": 0,
+        "log": ""
+      },
+      "test": {
+        "wall_seconds": 0.6913982999976724,
+        "exit_code": 1,
+        "log": "No tests found, exiting with code 1\nRun with `--passWithNoTests` to exit with code 0\nNo files found in C:\\Users\\Mpb19\\Documents\\Repositories\\portfolio\\node_modules\\.mathemagic-benchmark\\source.\nMake sure Jest's configuration does not exclude this directory.\nTo set up Jest, make sure a package.json file exists.\nJest Documentation: https://jestjs.io/docs/configuration\nPattern:  - 0 matches\n"
+      }
+    },
+    "total_seconds": 5.15216009998403,
+    "tests": {
+      "numTotalTestSuites": 0,
+      "numPassedTestSuites": 0,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 0,
+      "numPassedTests": 0,
+      "numFailedTests": 0,
+      "success": true
+    }
+  }
+]

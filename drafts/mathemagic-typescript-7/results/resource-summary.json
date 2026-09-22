@@ -1,0 +1,38 @@
+{
+  "original/5.9.3": {
+    "n": 3,
+    "median_sampled_peak_rss_mib": 515.14453125,
+    "min_mib": 472.78125,
+    "max_mib": 523.96875
+  },
+  "aligned/5.9.3": {
+    "n": 3,
+    "median_sampled_peak_rss_mib": 370.53515625,
+    "min_mib": 369.45703125,
+    "max_mib": 375.98828125
+  },
+  "aligned/6.0.3": {
+    "n": 3,
+    "median_sampled_peak_rss_mib": 374.40625,
+    "min_mib": 373.6796875,
+    "max_mib": 379.10546875
+  },
+  "aligned/7.0.2": {
+    "n": 3,
+    "median_sampled_peak_rss_mib": 223.875,
+    "min_mib": 222.91796875,
+    "max_mib": 226.80078125
+  },
+  "lean/5.9.3": {
+    "n": 3,
+    "median_sampled_peak_rss_mib": 187.11328125,
+    "min_mib": 181.69921875,
+    "max_mib": 212.25
+  },
+  "lean/7.0.2": {
+    "n": 3,
+    "median_sampled_peak_rss_mib": 127.01171875,
+    "min_mib": 125.71484375,
+    "max_mib": 130.359375
+  }
+}

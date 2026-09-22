@@ -1,0 +1,95 @@
+{
+  "5.9.3": {
+    "n": 3,
+    "median_total_seconds": 10.022249100002227,
+    "min_total_seconds": 9.990922499986482,
+    "max_total_seconds": 10.381444899991038,
+    "stage_medians_seconds": {
+      "build": 2.505823600004078,
+      "lint": 1.6250930999958655,
+      "test": 5.894433199995547
+    },
+    "stage_exit_codes": {
+      "build": [
+        0
+      ],
+      "lint": [
+        0
+      ],
+      "test": [
+        0
+      ]
+    },
+    "test_result": {
+      "numTotalTestSuites": 22,
+      "numPassedTestSuites": 22,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 44,
+      "numPassedTests": 44,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  "6.0.3": {
+    "n": 3,
+    "median_total_seconds": 10.107031899999129,
+    "min_total_seconds": 10.044957200007048,
+    "max_total_seconds": 10.1221521999978,
+    "stage_medians_seconds": {
+      "build": 2.581909100001212,
+      "lint": 1.5855205000116257,
+      "test": 5.92803609999828
+    },
+    "stage_exit_codes": {
+      "build": [
+        0
+      ],
+      "lint": [
+        0
+      ],
+      "test": [
+        0
+      ]
+    },
+    "test_result": {
+      "numTotalTestSuites": 22,
+      "numPassedTestSuites": 22,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 44,
+      "numPassedTests": 44,
+      "numFailedTests": 0,
+      "success": true
+    }
+  },
+  "7.0.2": {
+    "n": 3,
+    "median_total_seconds": 8.195974199988996,
+    "min_total_seconds": 8.089046799985226,
+    "max_total_seconds": 8.572691300010774,
+    "stage_medians_seconds": {
+      "build": 0.6016051000042353,
+      "lint": 1.5941147999983514,
+      "test": 5.96664209998562
+    },
+    "stage_exit_codes": {
+      "build": [
+        0
+      ],
+      "lint": [
+        0
+      ],
+      "test": [
+        0
+      ]
+    },
+    "test_result": {
+      "numTotalTestSuites": 22,
+      "numPassedTestSuites": 22,
+      "numFailedTestSuites": 0,
+      "numTotalTests": 44,
+      "numPassedTests": 44,
+      "numFailedTests": 0,
+      "success": true
+    }
+  }
+}
