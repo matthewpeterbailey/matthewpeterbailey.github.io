@@ -1,0 +1,23 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import BlogArchive from '../../components/BlogArchive';
+import { formatDate, getPublishedPosts, machineDate, postUrl } from '../../lib/posts';
+
+const posts = await getPublishedPosts();
+const listItems = posts.map((post) => ({
+  title: post.data.title,
+  date: machineDate(post.data.date),
+  displayDate: formatDate(post.data.date),
+  tag: post.data.tag,
+  summary: post.data.summary,
+  url: postUrl(post),
+}));
+---
+
+<Layout title="Blog" current="blog">
+  <main class="page blog-page" id="main">
+    <h1>Blog.</h1>
+    <p class="lede">Things I'm exploring, building, and learning along the way.</p>
+    <BlogArchive posts={listItems} client:load />
+  </main>
+</Layout>

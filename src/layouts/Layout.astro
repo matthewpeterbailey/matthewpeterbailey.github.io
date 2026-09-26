@@ -1,0 +1,49 @@
+---
+import '../styles/global.css';
+import site from '../../content/site.json';
+
+interface Props {
+  title: string;
+  description?: string;
+  current?: 'home' | 'about' | 'blog';
+  preloadLandscape?: boolean;
+}
+
+const {
+  title,
+  description = site.intro,
+  current = 'home',
+  preloadLandscape = false,
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} | {site.name}</title>
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f6f7f2" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {preloadLandscape && <link rel="preload" as="image" href="/assets/mountains.webp" />}
+  </head>
+  <body class={current === 'home' ? 'home' : 'inner'}>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="nav">
+      <a class="home-mark" href="/" aria-current={current === 'home' ? 'page' : undefined}>home.</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="/about/" aria-current={current === 'about' ? 'page' : undefined}>about.</a>
+        <a href="/blog/" aria-current={current === 'blog' ? 'page' : undefined}>blog.</a>
+      </nav>
+    </header>
+    <slot />
+    <footer>
+      <span>© {new Date().getFullYear()} {site.name}</span>
+      <div>
+        <a href={site.github}>GitHub ↗</a>
+        <a href={site.linkedin}>LinkedIn ↗</a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,26 +1,31 @@
 # Matthew Peter Bailey — portfolio
 
-A static portfolio and Markdown blog with an atmospheric paper mountain scene, a scroll-linked runner, and a running gait. No client framework, external fonts, database, or server runtime is needed in production.
+A statically generated portfolio and Markdown blog built with Astro, TypeScript and focused React components. It includes an atmospheric paper mountain scene, a scroll-linked runner and topic filtering without requiring a database or production server.
 
 ## Local development
 
 Requires Node.js 22 or newer.
 
 ```sh
-npm install
-npm run build
+npm ci
 npm run dev
 ```
 
-Open http://127.0.0.1:4321. Re-run the build after changing content; reload the browser after edits.
+Open http://127.0.0.1:4321. Astro refreshes the page as source and content change.
+
+Run the production checks and static build with:
+
+```sh
+npm run build
+```
 
 ## Edit your introduction
 
-Edit `content/site.json`. The headline and introduction are provisional copy. The headline accepts trusted HTML for the italic second line. Add your portrait to `dist/assets/portrait.webp`, then set `portrait` to `./assets/portrait.webp`. Until supplied, an explicitly labelled monogram placeholder appears instead. Edit the full biography in `content/about.md`.
+Edit `content/site.json` for the homepage copy and links. The portrait and other stable media live in `public/assets`. Edit the full biography in `src/content/about/about.md`.
 
 ## Publish a post
 
-Add a numbered Markdown file such as `content/04-my-investigation.md`:
+Add a dated Markdown file such as `src/content/blog/2026-09-26-my-investigation.md`:
 
 ```markdown
 ---
@@ -34,24 +39,24 @@ sample: false
 Your Markdown content goes here.
 ```
 
-Only numbered Markdown files are posts. Dates sort newest first. Slugs must be unique lowercase words separated by hyphens. Content is trusted author input; do not build untrusted submissions. The three initial posts are labelled samples, not claims about your work. Replace or remove them before a public launch.
+Dates sort newest first. Slugs must be unique lowercase words separated by hyphens. Astro validates the metadata during the build, so malformed frontmatter or an invalid slug stops publication. Content is trusted author input; do not build untrusted submissions.
 
 ## Free deployment with GitHub Pages
 
-1. Create a public repository under `matthewpeterbailey` and push this project to its `main` branch.
-2. In repository Settings → Pages, select **GitHub Actions** as the source.
-3. The included workflow builds and publishes after each push to `main`.
+The included GitHub Actions workflow installs the locked dependencies, checks and builds the Astro application, then publishes `dist` after each push to `main`. In repository Settings → Pages, the source must be **GitHub Actions**.
 
-For `matthewpeterbailey.github.io`, use that exact repository name. A repository named `portfolio` produces `https://matthewpeterbailey.github.io/portfolio/`. Relative links support either location. An optional custom domain is the only expected ongoing cost for this setup; GitHub Pages is free for public repositories. Production repository: https://github.com/matthewpeterbailey/matthewpeterbailey.github.io. Live site: https://matthewpeterbailey.github.io/. This workspace tracks the production repository as `origin`.
+The production repository is https://github.com/matthewpeterbailey/matthewpeterbailey.github.io and the live site is https://matthewpeterbailey.github.io/. This workspace tracks the production repository as `origin`. An optional custom domain is the only expected ongoing cost for this setup; GitHub Pages is free for public repositories.
 
 The `.openai/hosting.json` manifest also supports a separate private Sites deployment for review. It does not connect or publish to GitHub Pages.
 
 ## Implementation notes
 
-- Authored shared styles, animation, favicon, and optimized assets live in `dist`; keep these files tracked.
-- HTML is generated from `content` by `scripts/build.mjs`.
+- Astro generates the homepage, About page, blog index and each article as static HTML.
+- Markdown posts form a typed content collection described in `src/content.config.ts`.
+- React powers the runner and topic filtering; the rest of the site remains static.
 - Reduced-motion preference disables the pinned sequence and hides the decorative runner.
 - Navigation and articles work without JavaScript.
-- Artwork was generated with the built-in image generator. Landscape prompt: atmospheric layered green paper mountains, clear offwhite sky, mist and tactile paper grain, no text or people. Runner prompt: full-body black runner silhouette facing right, separated limbs, crisp paper-cut style, transparent background. Assets: `dist/assets/mountains.webp`, `dist/assets/runner.webp`.
+- Shared styles live in `src/styles/global.css`; stable images and the favicon live in `public`.
+- The migration record in `notes/astro-migration.md` captures the steps and measurements for a future blog post.
 
 

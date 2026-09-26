@@ -1,0 +1,19 @@
+---
+import type { BlogPost } from '../lib/posts';
+import { formatDate, machineDate, postUrl } from '../lib/posts';
+
+interface Props { post: BlogPost }
+const { post } = Astro.props;
+---
+
+<a class="post" data-post-tag={post.data.tag} href={postUrl(post)}>
+  <div class="post-meta">
+    <time datetime={machineDate(post.data.date)}>{formatDate(post.data.date)}</time>
+    <span class="tag">{post.data.tag}</span>
+  </div>
+  <div>
+    <h3>{post.data.title}</h3>
+    {post.data.summary && <p>{post.data.summary}</p>}
+  </div>
+  <span class="post-arrow" aria-hidden="true">↗</span>
+</a>

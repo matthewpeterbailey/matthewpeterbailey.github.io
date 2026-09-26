@@ -6,7 +6,7 @@
   "introEmphasis": "improves people’s lives.",
   "intro": "Principal Software Engineer specialising in TypeScript and .NET. I write about software engineering, technical leadership and building reliable systems that turn complex data into better outcomes.",
   "introAside": "And sometimes running.",
-  "portrait": "./assets/portrait.jpg",
+  "portrait": "/assets/portrait.jpg",
   "github": "https://github.com/matthewpeterbailey",
   "linkedin": "https://www.linkedin.com/in/matthewpeterbailey/"
 }

@@ -1,3 +1,5 @@
 node_modules/
+.astro/
+dist/
 .sites-runtime/
 *.tar.gz
