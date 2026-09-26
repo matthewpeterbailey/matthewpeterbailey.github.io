@@ -53,6 +53,6 @@ The new `dist` directory contains:
 
 The JavaScript increase is the main trade-off. React and its browser renderer account for most of it; the runner and blog filter components themselves are small. Articles and the About page do not load React. The homepage still contains the ten most recent posts, the blog archive contains all twelve posts, every existing article slug generated successfully and the tag query-string filter was checked in a browser.
 
-## Remaining production check
+## Production result
 
-- verify that GitHub Pages publishes the Astro output successfully before treating the migration as complete.
+GitHub Actions completed the first Astro deployment successfully. The live homepage, blog archive and a representative article all returned HTTP 200. The homepage contained the ten most recent posts, the archive contained all twelve posts and the published HTML referenced Astro's generated assets.
